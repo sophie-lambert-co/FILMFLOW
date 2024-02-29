@@ -1,0 +1,88 @@
+ .Serie{
+    flex-direction: row;
+    border: #33b0cd;
+    border-width: 2px;
+    border-style:groove;
+    border-radius: 7px;
+} 
+
+.buton {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  background-image:linear-gradient(55deg,  #33b0cd  , #2b2a2a);
+  border-radius: 12px;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px 12px 5px 12px;
+  height: 30px;
+  border-style: none;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.buton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-image:linear-gradient(55deg,  #33b0cd, #fff);
+}
+
+ 
+ .navSerie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+
+ 
+.ajoutFav  {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 35px;
+  padding-top: 0;
+  margin-top:10px ;
+  margin-left: 10px;
+}
+
+ 
+.suppFav  {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+ padding-left: 35px;
+  padding-top: 0;
+  margin-left: 10px;
+  margin-top:10px ;
+}
+
+.iconsSerie{
+  margin-left: 10px;
+  text-align:center;
+}
+
+.af{
+  margin-bottom: 0;
+  padding-bottom: O;
+
+}
+
+.ar{
+  margin-bottom: 0;
+  padding-bottom: O;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+  .Serie{
+    display:block;
+    margin: 0 auto; 
+  }
+}

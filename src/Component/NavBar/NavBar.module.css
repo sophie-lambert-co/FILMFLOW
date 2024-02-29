@@ -1,0 +1,28 @@
+nav {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid #33b0cd ;
+  border-width: 4px;
+  margin-bottom: 30px;
+
+}
+
+.logo1 {
+  height: 6vh;
+  width: auto;
+}
+
+.loupe {
+  transition: transform 0.2s ease-in-out;
+}
+
+.loupe:hover {
+  transform: scale(1.2);
+}
+
+
+
+  /*  #eb4cae Brillant Rose  ; #8754db Medium Purple  ; #33b0cd Scooter   */
+  

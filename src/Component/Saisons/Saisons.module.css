@@ -1,0 +1,171 @@
+.seasonContainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  border-color: whitesmoke;
+  border-width: 1px;
+  width: 20vh;
+  transition: width 0.3s ease-in-out;
+  height: 88%;
+  opacity: 1;
+  margin: 10px;
+  margin-left: 0;
+}
+
+hr {
+  display: flex;
+  border: 0;
+  height: 4px;
+  width: 30vw;
+  margin: auto;
+  background-color: #33b0cd;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  margin: 30px;
+}
+
+
+
+.seasonLi {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-color: whitesmoke;
+  border-width: 1px;
+  transition: width 0.3s ease-in-out;
+  margin: 20px;
+  align-items: center;
+}
+
+.SummaryContainer {
+  position: fixed;
+  bottom: 0;
+  left: 80%;
+  /* aligner à droite */
+  transform: translateX(-70%);
+  /* déplacer le résumé vers la droite */
+  width: 50%;
+  /* utiliser 50% de la largeur parente */
+  max-width: calc(80% - 20px);
+  /* ajuster la largeur pour qu'elle corresponde à la moitié de la largeur parente moins la marge */
+  height: 88%;
+  /* initiallement caché */
+  opacity: 1;
+  /* initiallement caché */
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(33, 31, 31);
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  /* utiliser un conteneur flexbox */
+  flex-direction: column;
+  /* empiler les éléments verticalement */
+  justify-content: flex-start;
+  /* aligner le résumé en haut */
+  font-size: 0.8em;
+  transform-origin: center;
+  margin: 10px;
+
+}
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+  padding: 10px;
+  min-width: 12vw;
+}
+
+.imageContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.seaContainer {
+  display: flex;
+}
+
+.seasonsCard {
+
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+details {
+  margin: 0;
+  padding: 0;
+}
+
+summary {
+  cursor: pointer;
+  outline: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.seasonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer {
+  margin-right: 20px;
+}
+
+.seasonNumber {
+  margin: 0;
+  font-size: 16px;
+}
+
+.seasonName {
+  margin: 0;
+  font-size: 20px;
+}
+
+.affiSeason {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.resum {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .seasonsCard {
+
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+ 
+  .seasonLi {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .seasonsCard {
+
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+}
+

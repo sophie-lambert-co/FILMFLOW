@@ -1,0 +1,130 @@
+.name {
+  padding: 10px;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  margin: 30px;
+}
+
+.perso {
+  font-size: 0.8em;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.photoActeur {
+  display: flex;
+  width: 15vw;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+}
+
+.acteurCard:hover {
+  transform: scale(1.2);
+}
+
+.acteurCard {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 20px 20px 20px;
+}
+
+.castingCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-right: 40px;
+}
+
+.castingCard a {
+  display: block;
+}
+
+hr {
+  display: flex;
+  border: 0;
+  height: 4px;
+  width: 30vw;
+  margin: auto;
+  background-color: #33b0cd;
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .castingCard a {
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+
+  }
+
+  .photoActeur {
+    display: flex;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin: 30px;
+  
+  }
+
+  .castingCard {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .acteurCard {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #33b0cd;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+ 
+  }
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  .castingCard a {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .photoActeur {
+    flex-direction: column;
+    width: 30vw;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+  }
+
+
+  .acteurCard {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+  }
+}

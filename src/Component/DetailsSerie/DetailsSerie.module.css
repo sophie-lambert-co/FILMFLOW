@@ -1,0 +1,115 @@
+
+.titreGenre{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.hasthaggenre{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.info{
+padding-left: 25px;
+}
+
+.iconsHastag{
+    font-size: 1em;
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.titreSerie{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.genre {
+    font-size: 18px;
+    margin-right: 8px;
+  }
+
+  .genre:last-child::after {
+    content: ".";
+  }
+
+
+  .genre:not(:last-child)::after {
+    content: ",";
+    margin-right: 8px;
+  }
+
+.photoSerie{
+    display: flex;
+    margin: auto;
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+    object-position: center; 
+}
+
+.resumeSerie p{
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+
+.cardSerie{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    align-content: flex-start;
+    margin-top: 40px;
+}
+
+p{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.iconsSerie{
+    padding-left: 30px;
+    text-align:center;
+}
+
+.iconsStar{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.note {
+  display: flex;
+  align-items: center;
+  margin-top:10px ;
+ 
+}
+
+.iconsStar {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .cardSerie{
+      display:block;
+      margin: 0 auto; 
+    }
+
+    .photoSerie{
+        display: flex;
+        width: 50vw;
+        height: auto;
+        margin: 0;
+    }
+
+  }

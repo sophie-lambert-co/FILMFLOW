@@ -1,0 +1,45 @@
+.form {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin: 3em;
+}
+
+
+.input {
+
+    background-color: rgba(100, 92, 92, 0.831);
+    width: 50vw;
+    font-family: 'Armata';
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 12px;
+    color: white;
+
+
+}
+
+.button {
+
+    margin: 10px;
+    border-radius: 50px;
+    min-width: 50px;
+    background-image: linear-gradient(55deg, #33b0cd, #2b2a2a);
+    color: rgb(33, 31, 31);
+    padding: 7px;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-image: linear-gradient(55deg, #33b0cd, #fff);
+    /* changer la couleur de fond */
+    transform: scale(1.05);
+
+}
+
+::placeholder {
+
+    color: rgb(33, 31, 31);
+}

@@ -1,0 +1,69 @@
+.image {
+    width: 15vw;
+    margin: 15px;
+    justify-content: center;
+}
+
+.nom {
+    font-size: 2em;
+    text-align: center;
+   
+}
+
+.detailFilmo li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.resum {
+    width: 40vw;
+    padding: 25px;
+}
+
+hr {
+    display: flex;
+    border: 0;
+    height: 4px;
+    width: 30vw;
+    margin: auto;
+    background-color: #33b0cd;
+  
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .detailFilmo {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+   
+        .detailFilmo li {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            width: 100%;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+
+        .resum {
+            width:fit-content;    
+            padding: 5px;
+        }
+
+        .image {
+            width: 60vw;
+            margin: 15px;
+            justify-content: center;
+        }
+  }
+  
+  
+
+  
+  
+   

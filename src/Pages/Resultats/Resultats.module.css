@@ -1,0 +1,33 @@
+li{
+    display: flex;
+    margin: 3em;
+    border: #33b0cd;
+    border-width: 1px;
+    border-style:groove;
+    border-radius: 7px;
+    padding: 15px;
+ 
+  }
+  
+
+  .liste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding-right: 40px;
+   align-items: center;
+  }
+  
+  
+  .divimg{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin-left: 0;
+   margin-right: 0;
+    justify-content: flex-start;
+  } 
+
+  

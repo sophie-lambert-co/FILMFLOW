@@ -1,0 +1,175 @@
+/*  #eb4cae Brillant Rose  ; #8754db Medium Purple  ; #33b0cd Scooter   */
+
+.caroussel {
+    position: relative;
+    width: calc(min(90rem, 90%));
+    margin: 0 auto;
+    min-height: 100vh;
+    column-gap: 3rem;
+    padding-block: min(20vh, 3rem);
+}
+
+
+.carousel-content span {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+    color: #717171;
+}
+
+.carousel-content h1 {
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-size: 4rem;
+    line-height: 1.1;
+    background-color: #33b0cd;
+    background-image: linear-gradient(45deg, #33b0cd, #000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.carousel-content hr {
+    display: block;
+    background: #33b0cd;
+    height: 0.25rem;
+    width: 6.25rem;
+    border: none;
+    margin: 1.125rem 0 1.875rem 0;
+}
+
+.carousel-content p {
+    line-height: 1.6;
+}
+
+
+.mySwiper {
+    width: 100%;
+    /*padding-top: 3.125rem;*/
+
+}
+
+.mySwiperSlider {
+    width: 100%;
+    height: calc(100vw * 0.4);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+.mySwiperSlider div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 0.625rem;
+}
+
+.swiper-slide-active div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.mySwiperSliderLink {
+    text-decoration: none;
+    background-color: rgba(44, 43, 43, 0.683);
+
+}
+
+.swiper-slide-active div a {
+    align-self: flex-start;
+}
+
+.mySwiperSlider h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0.625rem;
+    padding: 0 0 0 2em;
+    text-transform: uppercase;
+}
+
+.mySwiperSlider p {
+    color: #dadada;
+    padding: 0 1.563rem;
+    line-height: 1.6;
+    font-size: 0.70rem;
+
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+@media screen and (min-width: 48rem) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width:1560px) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+
+
+@media screen and (max-width:1560px) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 0;
+    }
+
+    .mySwiperSlider {
+        width: 2rem;
+        height: calc(100vw * 0.65);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .caroussel {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .mySwiperSlider {
+
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+}

@@ -1,0 +1,19 @@
+
+.homediv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.phraseaccroche {
+    font-size: 1.3em;
+    color: #33b1cdc2 ;
+    font-family:'Armata';
+    font-style: italic;
+    text-align: center;
+} 
+
+
+

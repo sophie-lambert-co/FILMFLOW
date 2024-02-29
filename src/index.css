@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Armata';
+}
+
+body {
+  background-color: rgb(26, 25, 25);
+  font-size: 0.9em;
+  color: whitesmoke;
+  height: 100%;r
+}
+
+#root {
+  height: 100%;
+}
+
+.icons {
+  color: #8754db;
+  padding: 0;
+  margin: 0;
+  size: 32px;
+}
+
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  z-index: 0;
+
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(26, 25, 25);
+  padding: 10px 20px;
+  position: relative;
+  z-index: 19;
+}
+
+.searchBarContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+
+a:-webkit-any-link {
+  color: whitesmoke;
+  cursor: pointer;
+  font-family: 'Armata';
+  text-decoration: none;
+}
+
+
+h1 {
+  font-family: 'Anton';
+  text-align: center;
+
+}
+
+img {
+  border-radius: 7px;
+  height: auto;
+}
+
+
+.icons {
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons:hover {
+  transform: scale(1.2);
+}
+
+
+
+/* .loupe{
+  margin-left: 20px;
+} */
+
+
+
+
+/*  #eb4cae Brillant Rose  ; #8754db Medium Purple  ; #33b0cd Scooter   */

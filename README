@@ -1,0 +1,100 @@
+# Nom du projet
+
+## Table des matières
+
+1. [Introduction](#introduction)
+2. [Pour un bon départ](#pour-un-bon-départ)
+3. [Préparation des dossiers de composants](#préparation-des-dossiers-de-composants)
+4. [Fonctionnalités avec des requêtes](#fonctionnalités-avec-des-requêtes)
+5. [Spécifications du projet](#spécifications-du-projet)
+6. [Installation](#installation)
+7. [Contribution](#contribution)
+8. [Licence](#licence)
+
+## Introduction
+
+Ce projet est une application web développée avec React.js et utilise l'API TV MAZE pour afficher des informations sur différentes séries télévisées.
+
+## Pour un bon départ
+
+1. Lire attentivement le cahier des charges
+    prendre connaissance du wireframe, de la charte graphique, et des fonctionnalités attendues.
+
+2. Prendre connaissance du kanban et ses fonctionnalités.
+
+3. Lire la documentation TV MAZE, et repérer les URL qui vont être utiles pour chacune des requêtes à effectuer.
+
+4. Mettre en place l'environnement de travail
+
+- Installer Node.js
+- Créer un nouveau projet React avec `create-react-app` : `npx create-react-app <nom_du_projet>`
+- Installer les dépendances nécessaires : `npm install`
+- Lancer le serveur de développement : `npm start`
+- Ouvrir le projet dans un éditeur de code.
+- Créer un dépôt sur GitHub et y pousser le projet.
+
+## Préparation des dossiers de composants
+
+1. Se baser sur le kanban dans lequel les tâches sont répertoriées pour savoir quels sont les composants attendus.
+
+2. Créer un dossier `components` dans le dossier `src` du projet.
+
+3. Créer un fichier pour chaque composant attendu dans le dossier `components`.
+
+4. Créer un fichier `index.js` dans le dossier `components` pour exporter tous les composants.
+
+5. Créer un fichier `index.css` dans le dossier `components` pour écrire les styles globaux des composants.
+
+6. Créer un fichier `main.jsx` dans le dossier `src` pour servir de point d'entrée pour l'application React.
+
+7. Créer un fichier `App.jsx` dans le dossier `src` pour servir de composant principal de l'application.
+
+8. Créer un fichier `index.css` dans le dossier `src` pour écrire les styles globaux de l'application.
+
+- Navbar
+- DétailsSerie
+- ListeFilmographie
+- ListeResult
+- ListFav
+- Saisons
+- SearchBar
+
+- Home
+- Acteurs
+- Favoris
+- Resultats
+- Serie
+
+- **Voici ce que aurait pu être fait pour améliorer la clarté et la maintenance du code** :
+
+9. Créer un fichier `routes.js` dans le dossier `src` pour définir les routes de l'application.
+
+10. Créer un fichier `api.js` dans le dossier `src` pour écrire les fonctions qui vont effectuer les requêtes à l'API TV MAZE.
+
+11. Créer un fichier `utils.js` dans le dossier `src` pour écrire les fonctions utilitaires qui vont être utilisées dans plusieurs composants.
+
+12. Créer un fichier `config.js` dans le dossier `src` pour stocker les variables de configuration de l'application.
+
+13. Créer un fichier `constants.js` dans le dossier `src` pour stocker les constantes de l'application.
+
+14. Créer un fichier `context.js` dans le dossier `src` pour créer un contexte qui va stocker les données partagées entre les composants.
+
+15. Créer un fichier `hooks.js` dans le dossier `src` pour écrire les hooks personnalisés qui vont être utilisés dans plusieurs composants.
+
+16. Créer un fichier `services.js` dans le dossier `src` pour écrire les fonctions qui vont effectuer les requêtes à l'API TV MAZE.
+
+17. Créer un fichier `store.js` dans le dossier `src` pour créer un store qui va stocker les données partagées entre les composants.
+
+- `main.jsx` : Ce fichier sert de point d'entrée pour l'application React et met en place la structure générale de l'application en important et en rendant les composants nécessaires pour la navigation et l'affichage des pages.
+
+- `App.jsx` : Ce fichier joue un rôle clé dans la mise en place des routes de l'application, l'affichage de la barre de navigation, la gestion de la boîte de dialogue modale et l'affichage des différents composants en fonction de l'URL actuelle.
+
+## Installation
+
+Pour installer ce projet, suivez les étapes suivantes :
+
+1. Clonez le dépôt : `git clone <url_du_dépôt>`
+2. Installez les dépendances : `npm install`
+3. Lancez le serveur de développement : `npm start`
+
+
